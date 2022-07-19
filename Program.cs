@@ -6,7 +6,9 @@ namespace Classe_CSHARP
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Lanche David = new Lanche(Lanche.Pao.Pão_Brioche, Lanche.Hamburguer.Hamburguer_Picanha, Lanche.Queijo.Queijo_Cheddar, Lanche.Adicional.Bacon);
+
+            Console.WriteLine(David.ToString());
         }
     }
 }
